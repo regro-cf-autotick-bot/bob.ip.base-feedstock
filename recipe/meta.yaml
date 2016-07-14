@@ -6,7 +6,7 @@ package:
 
 source:
   fn: bob.ip.base-{{ version }}.zip
-  url: https://pypi.python.org/packages/source/b/bob.ip.base/bob.ip.base-{{ version }}.zip
+  url: https://pypi.io/packages/source/b/bob.ip.base/bob.ip.base-{{ version }}.zip
   md5: 3a977186c9da90e146b741ba08243342
 
 build:
