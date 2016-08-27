@@ -10,7 +10,7 @@ source:
   md5: 3a977186c9da90e146b741ba08243342
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
 
 requirements:
@@ -24,7 +24,7 @@ requirements:
     - bob.sp
     - bob.io.base
     - bob.math
-    - vlfeat
+    - vlfeat 0.9.20
     - boost 1.61.*
     - cmake
     - pkg-config
@@ -38,7 +38,7 @@ requirements:
     - bob.sp
     - bob.io.base
     - bob.math
-    - vlfeat
+    - vlfeat 0.9.20
     - boost 1.61.*
 
 test:
