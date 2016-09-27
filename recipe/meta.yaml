@@ -1,4 +1,4 @@
-{% set version = "2.0.10" %}
+{% set version = "2.0.12" %}
 
 package:
   name: bob.ip.base
@@ -7,7 +7,7 @@ package:
 source:
   fn: bob.ip.base-{{ version }}.zip
   url: https://pypi.io/packages/source/b/bob.ip.base/bob.ip.base-{{ version }}.zip
-  md5: 3a977186c9da90e146b741ba08243342
+  md5: de5e20c277d1c7202c6b37acfc48a359
 
 build:
   number: 0
@@ -55,7 +55,7 @@ test:
     - nose
 
 about:
-  home: http://github.com/bioidiap/bob.ip.base
+  home: https://www.idiap.ch/software/bob/
   license: Modified BSD License (3-clause)
   summary: Basic Image Processing Utilities for Bob
 
